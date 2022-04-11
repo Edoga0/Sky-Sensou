@@ -166,7 +166,7 @@ p {
     width: 100%;
     height: 500px;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 #showcase .button {
@@ -439,7 +439,7 @@ p {
         width: 100%;
         height: 620px;
         z-index: -1;
-        opacity: .5;
+        opacity: .6;
     }
     #showcase {
         min-height: 500px;
