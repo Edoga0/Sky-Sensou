@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.typekit.net/gyq6acv.css">
     <script src="scripts/script.js" defer></script>
     <title>Website</title>
@@ -40,8 +40,9 @@
         </div>
     </header>
     <!-- Main content -->
-    <main id="main">
-        <!-- Section A -->
+
+    <!-- Section A -->
+    <div class="container reveal">
         <section id="section-a" class="grid">
             <div class="content-wrap">
                 <h2 class="content-title"> WHAT IS SKY-SENSOU? </h2>
@@ -51,7 +52,9 @@
                 </div>
             </div>
         </section>
-        <!-- Section B -->
+    </div>
+    <!-- Section B -->
+    <div class="container reveal">
         <section id="section-b" class="grid">
             <h2 class="content-title"> Screenshots</h2>
             <ul>
@@ -84,7 +87,9 @@
                 </li>
             </ul>
         </section>
-        <!--blog-section-->
+    </div>
+    <!--blog-section-->
+    <div class="container reveal">
         <section id="blog">
             <!--blog-heading-->
             <div class="blog-heading">
@@ -143,12 +148,15 @@
                 </div>
             </div>
         </section>
-        <!-- Section D-->
+    </div>
+    <!-- Section D-->
+    <div class="container reveal">
         <section id="section-d" class="grid">
             <div class="box">
                 <h2 class="content-title">Discord Community</h2>
-                <img src="images/discordlogo.png" alt="discord">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nostrum.</p>
+                <a href="https://discord.com/">
+                    <img src="images/discordlogo.png" alt="discord">
+                </a>
             </div>
             <div class="box">
                 <h2 class="content-title">SEND A MESSAGE</h2>
@@ -169,7 +177,7 @@
                 </form>
             </div>
         </section>
-    </main>
+    </div>
     <!-- Footer -->
     <footer id="main-footer" class="grid">
         <div>Designed by Edgar — Copyright 2022</div>
