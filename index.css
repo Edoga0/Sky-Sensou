@@ -320,6 +320,7 @@ p {
 #section-d .box {
     padding: 2em;
     color: white;
+    border-radius: 15px;
 }
 
 #section-d .box:first-child {
