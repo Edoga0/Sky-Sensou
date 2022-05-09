@@ -1,3 +1,4 @@
+//header animation
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
@@ -5,6 +6,9 @@ toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
 
+
+
+//trasition animation
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
 
